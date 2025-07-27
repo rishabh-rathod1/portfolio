@@ -21,7 +21,7 @@ export function Projects() {
         "Monitoring with Graphite and Grafana",
         "Quality assurance via JUnit and Postman"
       ],
-      github: "#",
+      github: "https://github.com/rishabh-rathod1/cms-pipeline",
       demo: "#"
     },
     {
@@ -37,7 +37,7 @@ export function Projects() {
         "Modular architecture design",
         "Optimized underwater performance"
       ],
-      github: "#",
+      github: "https://github.com/rishabh-rathod1/AURA-Nexus",
       demo: "#"
     }
   ]

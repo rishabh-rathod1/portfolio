@@ -13,12 +13,12 @@ export function Certifications() {
         {
           title: "DevOps Fundamentals",
           date: "June 2025",
-          link: "#"
+          link: "https://courses.vit.skillsnetwork.site/certificates/5cb67cefaf93430cad66ee4d77e165aa"
         },
         {
           title: "DevOps, Agile & Design Thinking",
           date: "June 2025",
-          link: "#"
+          link: "https://courses.vit.skillsnetwork.site/certificates/c7c29fb781454280848362cc32064d7d"
         }
       ]
     },

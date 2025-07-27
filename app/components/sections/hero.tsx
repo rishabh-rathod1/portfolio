@@ -14,7 +14,7 @@ export function Hero() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Hi, I`&apos;`m <span className="gradient-text">Rishabh</span>
+            Hi, I&apos;m <span className="gradient-text">Rishabh</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             Pre-final year B.Tech student at VIT Chennai, passionate about embedded systems, 
@@ -35,7 +35,7 @@ export function Hero() {
 
           <div className="flex justify-center space-x-6">
             <a
-              href="https://github.com/rishabhrathod"
+              href="https://github.com/rishabh-rathod1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -43,7 +43,7 @@ export function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/rishabh-rathod"
+              href="https://www.linkedin.com/in/rishabh-rathod-4892b124a/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
