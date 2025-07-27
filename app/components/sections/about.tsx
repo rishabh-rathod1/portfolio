@@ -37,19 +37,19 @@ export function About() {
             
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate pre-final year B.Tech student specializing in Electronics and Computer Engineering 
+                I`&apos;`m a passionate pre-final year B.Tech student specializing in Electronics and Computer Engineering 
                 at VIT Chennai. My journey in technology is driven by a deep fascination with embedded systems, 
                 DevOps practices, and the seamless integration of hardware and software.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                With hands-on experience in building scalable systems with real-time performance, I've developed 
+                With hands-on experience in building scalable systems with real-time performance, I`&apos;`ve developed 
                 a strong foundation in both theoretical concepts and practical applications. My work spans from 
                 MOSFET device simulation using TCAD tools to developing underwater ROVs with real-time telemetry.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm particularly interested in the intersection of embedded systems and modern DevOps practices, 
+                I`&apos;`m particularly interested in the intersection of embedded systems and modern DevOps practices, 
                 believing that the future of technology lies in intelligent, connected devices that can be 
                 efficiently developed, deployed, and maintained.
               </p>
