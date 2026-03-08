@@ -9,12 +9,7 @@ import {
   ContactShadows, 
   Environment, 
   Lightformer,
-  PerspectiveCamera,
-  useTexture,
-  Sphere,
-  Box,
-  Torus,
-  Octahedron
+  PerspectiveCamera
 } from '@react-three/drei'
 import * as THREE from 'three'
 
@@ -459,7 +454,7 @@ function AmbientParticles() {
   const particlesRef = useRef<THREE.Group>(null)
   
   const particles = useMemo(() => {
-    return Array.from({ length: 15 }, (_, i) => ({
+    return Array.from({ length: 15 }, () => ({
       position: [
         (Math.random() - 0.5) * 8,
         (Math.random() - 0.5) * 6,
@@ -475,7 +470,7 @@ function AmbientParticles() {
       particlesRef.current.children.forEach((particle, i) => {
         particle.position.y += Math.sin(state.clock.elapsedTime * particles[i].speed) * 0.001
         const opacity = 0.3 + Math.sin(state.clock.elapsedTime * particles[i].speed * 2) * 0.2
-        ;(particle as THREE.Mesh).material.opacity = opacity
+        ;(particle as THREE.Mesh<THREE.BufferGeometry, THREE.Material>).material.opacity = opacity
       })
     }
   })

@@ -12,9 +12,9 @@ const fadeUp = {
 
 export function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitted] = useState(false)
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async () => {
     setIsSubmitting(true)
     // FormSubmit will handle the redirect, so we just need to show loading state
     setTimeout(() => {
@@ -132,7 +132,7 @@ export function Contact() {
                   >
                     <CheckCircle className="h-16 w-16 text-primary mx-auto mb-4" />
                     <h4 className="text-2xl font-bold text-white mb-2">Message Sent!</h4>
-                    <p className="text-white/60">Thank you for reaching out. I'll get back to you soon.</p>
+                    <p className="text-white/60">Thank you for reaching out. I&apos;ll get back to you soon.</p>
                   </motion.div>
                 ) : (
                   <form 

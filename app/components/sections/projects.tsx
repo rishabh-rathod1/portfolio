@@ -1,6 +1,6 @@
 "use client"
 
-import { Badge } from '../ui/badge'
+
 import { Button } from '../ui/button'
 import { motion } from 'framer-motion'
 import { Github, Shield, Leaf, Server, Anchor, Terminal, ChevronRight } from 'lucide-react'

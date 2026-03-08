@@ -92,7 +92,7 @@ export function Header() {
           
           <div className="ml-4">
             <Button size="default" variant="default" asChild className="rounded-full px-6 text-sm font-bold bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/20">
-              <a href="#contact">Let's Talk</a>
+              <a href="#contact">Let&apos;s Talk</a>
             </Button>
           </div>
         </nav>
@@ -140,7 +140,7 @@ export function Header() {
               ))}
               <div className="pt-2 mt-2 border-t border-white/10">
                 <Button className="w-full rounded-xl font-bold bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/20" asChild>
-                  <a href="#contact" onClick={() => setIsMenuOpen(false)}>Let's Talk</a>
+                  <a href="#contact" onClick={() => setIsMenuOpen(false)}>Let&apos;s Talk</a>
                 </Button>
               </div>
             </div>
