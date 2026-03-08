@@ -1,46 +1,29 @@
 "use client"
 
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Heart } from 'lucide-react'
+import { motion } from 'framer-motion'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-muted/50 py-8">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="mb-4 md:mb-0">
-            <p className="text-muted-foreground">
-              © {currentYear} Rishabh Rathod. All rights reserved.
-            </p>
-          </div>
-          
-          <div className="flex space-x-6">
-            <a
-              href="https://github.com/rishabh-rathod1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/rishabh-rathod-4892b124a/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Linkedin className="h-5 w-5" />
-            </a>
-            <a
-              href="mailto:rishabhrathod418@gmail.com"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Mail className="h-5 w-5" />
-            </a>
-          </div>
-        </div>
-      </div>
+    <footer className="relative z-10 py-12 px-4 text-center">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        className="flex flex-col items-center gap-4"
+      >
+        <span className="text-2xl font-bold font-display text-white tracking-tighter">
+          rishabh<span className="text-primary">.</span>
+        </span>
+        <p className="text-sm font-medium text-white/50 flex items-center gap-2 justify-center">
+          Built with <Heart className="h-4 w-4 text-primary fill-primary" /> using Next.js & Three.js
+        </p>
+        <p className="text-xs text-white/30 font-bold uppercase tracking-widest mt-4">
+          © {currentYear} All rights reserved.
+        </p>
+      </motion.div>
     </footer>
   )
 }

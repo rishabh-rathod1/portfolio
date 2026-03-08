@@ -3,9 +3,7 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'via.placeholder.com'],
   },
-  experimental: {
-    appDir: true,
-  },
+  transpilePackages: ['three'],
 }
 
 module.exports = nextConfig
